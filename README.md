@@ -57,6 +57,7 @@ Sequential([
 
 
 **📊 Training Progress**
+
 Trained for 20 epochs on augmented image data using ImageDataGenerator. The model showed progressive improvement:
 
 | Epoch | Train Accuracy | Validation Accuracy | Train Loss | Val Loss |
@@ -67,6 +68,7 @@ Trained for 20 epochs on augmented image data using ImageDataGenerator. The mode
 
 
 **🔬 Test Results**
+
 Test Accuracy: 82.18%
 
 Test Loss: 0.5505
@@ -75,6 +77,7 @@ Final model evaluated on 634 test images from 3 categories. Demonstrates strong 
 
 
 **💡 Prediction Demo (Gradio Interface)**
+
 After saving the model (chest_xray_model.h5), a Gradio interface is created:
 
 def predict_image(image):
