@@ -89,13 +89,14 @@ def predict_image(image):
     class_labels = ['Normal', 'Bacterial_Pneumonia', 'Viral_Pneumonia']
     return class_labels[np.argmax(prediction)]
 
-Run via:
+**Run via:**
 
 g.Interface(
     fn=predict_image,
     inputs=gr.Image(type="numpy"),
     outputs=gr.Textbox(label="Prediction")
 )
+
 
 
 **🔄 Future Work**
