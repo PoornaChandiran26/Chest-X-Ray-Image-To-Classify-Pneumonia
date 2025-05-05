@@ -1,3 +1,9 @@
-The trained model file `chest_xray_model.h5` is too large to upload directly to GitHub.
+# 📦 Model File Not Included
 
-👉 [Download the model here](https://drive.google.com/file/d/1aBZKDyYIyhTJE4EWAYCu-JDXF2NNhfwz/view?usp=drive_link)
+The trained model file `chest_xray_model.h5` is not included in this repository due to GitHub's 100MB file size limit.
+
+👉 [Click here to download the model from Google Drive](https://drive.google.com/file/d/1aBZKDyYIyhTJE4EWAYCu-JDXF2NNhfwz/view?usp=drive_link)
+
+After downloading, place the model file in the **root directory** of this project like so:
+
+
